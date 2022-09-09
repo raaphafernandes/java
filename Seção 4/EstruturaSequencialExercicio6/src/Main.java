@@ -7,6 +7,11 @@ public class Main {
 
         double A, B, C;
 
+        A = sc.nextDouble();
+        B = sc.nextDouble();
+        C = sc.nextDouble();
+
+
 
     }
 }
