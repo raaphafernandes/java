@@ -5,13 +5,14 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        int valor = sc.nextInt();
-        // Se o numero for divisivel por 2 ele é par
-        if (valor % 2 == 0){
-            System.out.println("PAR");
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % B == 0 || B % A == 0){
+            System.out.println("Sao Multiplos");
         }
         else {
-            System.out.println("IMPAR");
+            System.out.println("Nao sao multiplos");
         }
 
         sc.close();
